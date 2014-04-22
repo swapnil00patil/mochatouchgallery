@@ -1,78 +1,7 @@
 mochatouchgallery
 =================
 
-<style>
-#demo {
-	float:left;
-	width:100%;
-}
-.collage_wrap {
-	float: left;
-	width: 100%;
-	height: 320px;
-	background: #DAE9F0;
-	position: relative;
-	padding: 5px 0;
-}
-.collage {
-	float: left;
-	width: 400px;
-	margin: 8px 20px;
-	padding: 10px;
-	color: #fff;
-	border-radius: 20px;
-	font-size:24px;
-	font-family:myFirstFont;
-	text-align:center;
-	letter-spacing: 2px; 
-	background:#0B5766;
-}
-@font-face {
-	/*font-family: myFirstFont;
-	src: url(NASAL.TTF);*/
-}
-@font-face {
-	font-family: mySecondFont;
-	src: url(BebasNeue.otf);
-}
-.h3title {
-	background:#fff;
-	color:#000;
-	padding:18px 15px;
-	border-radius:10px;
-	font-size:20x;
-	border: 1px solid #ccc;
-	margin: 20px 0;
-	width: 890px;
-}
-xmp {
-	overflow: scroll;
-	background: #000;
-	padding: 5px;
-	color: #fff;
-}
-.demoBtn {
-	padding: 10px 20px;
-	text-decoration: none;
-	background: #000;
-	color: #fff;
-}
-.p-head h1 {
-	display:none;
-}
-.logo {
-	margin-bottom:0;
-}
-.mainHeader{float: left;
-width: 915px;
-font-family: mySecondFont;
-font-size: 40px;
-text-align: center;
-margin: 15px 0;
-padding: 10px;
-background: #000;
-color: #fff;}
-</style>
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script type="text/javascript" src="mochatouch-min.js"></script>
     <link href="mochatouch.css" rel="stylesheet">
