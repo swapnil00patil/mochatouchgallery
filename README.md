@@ -2,7 +2,7 @@ mochatouchgallery
 =================
 
 
-<div class="mainHeader">RESPONSIVE IMAGE & VIDEO GALLERY FOR MOBILE AND TOUCH DEVICES</div>
+<div class="mainHeader">Responsive Image & Video gallery for Mobile and Touch devices</div>
 
   <div style="float:left; width:100%">
   	<h5 class="h3title">Options</h5>
