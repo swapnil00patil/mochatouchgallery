@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,initial-scale=1.0">
+</head>
+<body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../mochatouch.js"></script>
+    <link href="../mochatouch.css" rel="stylesheet">
+    <script>
+        $(function () {
+            mochaTouch("mochatouchdefault",'default');
+        })
+    </script>
+    <div id="example3">
+        <div id="mochatouchdefault">
+            <ul>
+                <li>
+                    <img  src="data/1.jpg" data-caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">
+                </li>
+                <li>
+                    <img src="data/2.jpg" data-caption="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.">
+                </li>
+                <li>
+                    <video preload="none" controls poster="data/bunny.jpg" data-caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">
+                        <source src="data/bunny.mp4" type='video/mp4'>
+                    </video>
+                </li>
+                <li>
+                    <iframe src="http://www.youtube.com/embed/xs_T07_XVFk" frameborder="0" allowfullscreen data-caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></iframe>
+                </li>
+                <li>
+                    <iframe src="http://player.vimeo.com/video/90444206" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></iframe>
+                </li>
+                <li>
+                    <img src="data/3.jpg" data-caption="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.">
+                </li>
+                <li>
+                    <img src="data/4.jpg" data-caption="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.">
+                </li>
+                <li>
+                    <img src="data/5.jpg" data-caption="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.">
+                </li>
+                <li>
+                    <video preload="none" controls poster="data/bunny.jpg" data-caption="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.">
+                        <source src="data/bunny.mp4" type='video/mp4'>
+                    </video>
+                </li>
+            </ul>
+        </div>
+        <style>
+            #mochatouchdefault {} #mochatouchdefault ul {
+                margin: 0;
+                padding: 0;
+            }
+            #mochatouchdefault ul li {
+                float: left;
+                width: 27%;
+                overflow: hidden;
+                height: 200px;
+                margin: 1% 3%;
+                position: relative;
+            }
+            #mochatouchdefault ul li img,
+            #mochatouchdefault ul li video,
+            #mochatouchdefault ul li iframe {
+                width: 100%;
+            }
+            @media (max-width: 600px) {
+                #mochatouchdefault ul li {
+                    width: 44%;
+                    height: 100px;
+                }
+            }
+        </style>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,initial-scale=1.0">
+</head>
+<body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../mochatouch-min.js"></script>
+    <link href="../mochatouch.css" rel="stylesheet">
+    <script>
+        $(function () {
+            galleryJson = '[{"type":"photo","poster": "data/0.jpg", "videourl": "", "caption": "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},{"type":"video","poster": "data/bunny.jpg", "videourl": "data/bunny.mp4", "caption": "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},{"type":"iframe","poster": "", "videourl": "http://www.youtube.com/embed/xs_T07_XVFk", "caption": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."},{"type":"iframe","poster": "", "videourl": "http://player.vimeo.com/video/90444206", "caption": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."},{"type":"photo","poster": "data/6.jpg", "videourl": "", "caption": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."},{"type":"photo","poster": "data/7.jpg", "videourl": "", "caption": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."}]';
+            $("#mochatouchModal").on("click", function () {
+                mochaTouch(galleryJson, 'json');
+            });
+
+        })
+    </script>
+    <div id="example2">
+        <input type="button" name="Load from JSON" value="Load from JSON" id="mochatouchModal">
+    </div>
+</body>
+</html>
